@@ -19,7 +19,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold">Invoices</h1>
         <p className="inline-flex gap-4">
           <Button variant="ghost" asChild>
-            <Link href="/inoivce/new">
+            <Link href="/invoices/new">
               <CirclePlus className="h-4 w-4" />
               Create Invoice
             </Link>
